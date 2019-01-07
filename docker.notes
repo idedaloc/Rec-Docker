@@ -1,0 +1,26 @@
+  337  docker info
+  338  cd /etc/docker/
+  342  docker info| head
+  343  sudo systemctl start docker.service
+  358  sudo docker stop kitematic/hello-world-nginx
+  359  sudo docker ps
+  361  sudo docker p
+  362  sudo docker images
+  363  sudo docker stop b080918c9aee
+  370  sudo docker ps -a
+  378  sudo docker rm 168c7209ad28
+  399  sudo docker image inspect mongo
+  402  sudo docker images -q --no-trunc
+  404  sudo docker images ps
+  419  sudo docker run hello-world
+  436  sudo docker rmi hello-world
+  446  sudo docker pull kitematic/hello-world-nginx
+  460  sudo docker run mongo
+  461  sudo docker run -p 27017:27017 -d mongo
+  478  sudo docker logs -f 168c7209ad28
+  524  sudo docker build -t spring-boot-docker .
+  529  sudo docker run -d -p 8080:8080 spring-boot-docker
+  469  sudo docker run --name mysqldb -p 3306:3306 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -d mysql
+  444  sudo docker run -d centos tail -f /dev/null
+  445  sudo docker exec -it container_name bash
+  489  sudo docker exec -it mysqldb bash
